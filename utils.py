@@ -10,6 +10,9 @@ ver_range = [11, 12, 1, 2, 3]
 def month_name(month):
     return meses[month-1]
 
+def month_number(month):
+    return meses.index(month)+1
+
 def df_invierno(df, i_year, f_year):
     invierno = pd.DataFrame()
     for year in range(i_year, f_year+1):
