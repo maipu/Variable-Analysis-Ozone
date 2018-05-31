@@ -40,6 +40,19 @@ def gpr_verano(date):
     else:
         return date.year-1
 
+def o3delta(df, delta):
+    if delta == 0:
+        return df
+    df = df.reset_index()
+    dfr = df['O3']
+    dfl = df.drop(columns='O3')
+    dfr = dfr.iloc[delta:].reset_index(drop=True)
+    dfl = dfl.iloc[:-delta].reset_index(drop=True)
+    df = pd.concat([dfl, dfr], axis=1)
+    df.set_index('registered_on')
+    return df
+
+
 #def gpr_month(date):
 #    return month_name(date.month)
 
