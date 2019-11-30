@@ -6,7 +6,7 @@ numpy
 pandas
 #celery[redis]
 #redis
-#sklearn
+sklearn
 #requests
 #keras
 #statsmodels
