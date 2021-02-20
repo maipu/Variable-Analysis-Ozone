@@ -1,6 +1,11 @@
+'''
+Utilidades que hice para manejar los DataFrame mientras aprendía pandas.
+'''
 #import matplotlib.pyplot as plt
 import pandas as pd
 from datetime import datetime
+
+
 
 meses=['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
 

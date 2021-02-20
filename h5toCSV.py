@@ -1,6 +1,14 @@
+'''
+Divide un h5 en csv de invierno y verano.
+Escribe ambos csv en la misma carpeta que el h5
+'''
 import pandas as pd
 import utils
 import sys
+
+
+
+
 
 since = 1997
 until = 2017
