@@ -17,9 +17,8 @@
 * Visualización de las series de tiempo de cada predictor.
   * Modo **Máximo Diario** u **Horario**.
 * Visualización de Boxplots por mes.
-* Correlación con Ozono.
-
-
-
-
-
+* Correlación de cada predictor con el Ozono.
+* Mutual Information de cada predictor con el Ozono.
+* Busqueda del tiempo de la máxima correlación para cada predictor.
+* Busqueda del tiempo de la máxima MI para cada predictor.
+* Visualización de los máximos para la correlación y la MI.
